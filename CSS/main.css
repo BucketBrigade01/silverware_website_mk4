@@ -1,10 +1,10 @@
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 html {
   scroll-behavior: smooth;
@@ -21,11 +21,11 @@ body {
 
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 .hero {
   z-index: -2;
@@ -261,11 +261,11 @@ body {
 }
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 .welcome_banner {
   height: 2.5rem;
@@ -293,7 +293,6 @@ body {
   background-color: #df4545;
   margin-bottom: 0px;
   border: 0;
-  z-index: 4;
 }
 @media screen and (max-width: 500px) {
   .line_container .line1 {
@@ -306,7 +305,6 @@ body {
   background-color: #df4545;
   margin-bottom: 0px;
   border: 0;
-  z-index: 4;
 }
 .line_container .line3 {
   margin-top: 2px;
@@ -314,7 +312,6 @@ body {
   background-color: #df4545;
   margin-bottom: 0px;
   border: 0;
-  z-index: 4;
 }
 
 .nav_container {
@@ -413,48 +410,14 @@ body {
     display: none;
   }
 }
-.nav_container .nav_item #side-active {
-  display: none;
-}
-.nav_container .dropdown-link-container {
-  display: none;
-}
-@media screen and (min-width: 500px) {
-  .nav_container .dropdown-link-container .dropdown-ul {
-    display: none;
-  }
-}
-@media screen and (max-width: 500px) {
-  .nav_container .dropdown-link-container {
-    flex-direction: row;
-    align-items: flex-start;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 10;
-    width: 100%;
-    background-color: #df4545;
-  }
-  .nav_container .dropdown-link-container #side-active:checked {
-    display: flex;
-  }
-}
-.nav_container .dropdown-link-container .fa-x {
-  font-size: 2rem;
-}
-@media screen and (min-width: 500px) {
-  .nav_container .dropdown-link-container .fa-x {
-    display: none;
-  }
-}
 
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 .tickets {
   height: 600px;
@@ -604,11 +567,11 @@ body {
 
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 footer {
   background-color: #2e1c18;
@@ -694,11 +657,11 @@ footer .footer_container .signature {
 
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 .contact {
   height: 40rem;
@@ -824,11 +787,11 @@ footer .footer_container .signature {
 }
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 .about {
   display: flex;
@@ -916,11 +879,11 @@ footer .footer_container .signature {
 
 @font-face {
   font-family: "hand_written";
-  src: url("../ASSETS/fonts/Providence-Sans.otf") format("opentype");
+  src: url("../assets/fonts/Providence-Sans.otf") format("opentype");
 }
 @font-face {
   font-family: "frog";
-  src: url("../ASSETS/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
+  src: url("../assets/fonts/SuperFrog-Yqy1q.ttf") format("opentype");
 }
 .about-header {
   display: flex;
