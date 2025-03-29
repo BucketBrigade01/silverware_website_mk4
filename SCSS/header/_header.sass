@@ -23,6 +23,7 @@
         background-color: $red
         margin-bottom: 0px
         border: 0
+        z-index: 4
 
         @media screen and ( max-width: 500px)
             margin-top: 0
@@ -33,12 +34,14 @@
         background-color: $red
         margin-bottom: 0px
         border: 0
+        z-index: 4
     .line3
         margin-top: 2px
         height: 2px
         background-color: $red
         margin-bottom: 0px
         border: 0
+        z-index: 4
 
 .nav_container
     background-color: $white
@@ -96,6 +99,7 @@
     .nav_item a
         text-decoration: none
         color: $brown
+        
 
     .nav_item 
         li
@@ -114,6 +118,36 @@
             @media screen and ( min-width: 500px)
                 display: none
 
+            font-size: 2rem
+        
+        #side-active
+            display: none
+
+    .dropdown-link-container
+
+        display: none
+
+        
+
+        .dropdown-ul 
+            @media screen and ( min-width: 500px )
+                display: none
+
+        @media screen and ( max-width: 500px )
+            #side-active:checked
+                display: flex
+            flex-direction: row
+            align-items: flex-start 
+            position: fixed
+            right: 0
+            top: 0
+            z-index: 10
+            width: 100%
+            background-color: $red
+        .fa-x
+            @media screen and ( min-width: 500px)
+                display: none
+                
             font-size: 2rem
                 
         

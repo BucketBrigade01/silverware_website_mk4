@@ -15,6 +15,12 @@
         left: -16rem
         scale: 0.9
 
+        @media screen and ( max-width: 1400px )
+            left: -32rem
+
+        @media screen and ( max-width: 1000px )
+            left: -40rem
+
         @media screen and ( max-width: 500px)
             display: none
 
@@ -30,6 +36,9 @@
             @include flex_col_center()
             gap: 1rem
             width: 50%
+            @media screen and ( max-width: 800px)
+                width: 75%
+
             input
                 font-family: 'hand_written', sans-serif
                 font-size: 1.5rem

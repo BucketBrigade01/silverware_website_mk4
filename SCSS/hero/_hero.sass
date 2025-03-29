@@ -42,6 +42,7 @@
 
         .hero_item
             @include flex_col_center()
+
             .clouds_fluffy
                 z-index: 0
                 position: absolute
@@ -73,7 +74,7 @@
             .text
                 z-index: 0
 
-                @media screen and ( max-width: 500px)
+                @media screen and ( max-width: 800px)
                     text-align: center
 
             .logo
@@ -87,7 +88,7 @@
             .img_roto
                 @include flex_row_center()
                 margin-top: 1rem
-                
+
                 .link
                     &:hover
                         z-index: 3
@@ -108,7 +109,7 @@
 
                     @media screen and ( max-width: 500px)
                         width: 6rem
-
+                        filter: grayscale(10%)
                 .album 
                     z-index: 0
                     width: 16rem
@@ -125,6 +126,7 @@
 
                     @media screen and ( max-width: 500px)
                         width: 12rem
+                        filter: grayscale(10%)
                 
                 .sp_album
                     z-index: 1
@@ -142,6 +144,7 @@
 
                     @media screen and ( max-width: 500px)
                         width: 6rem
+                        filter: grayscale(10%)
 
 @keyframes sinusoid
     0%
